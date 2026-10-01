@@ -1,0 +1,32 @@
+# Abhängigkeiten & Build
+node_modules/
+dist/
+build/
+coverage/
+.turbo/
+
+# Umgebung & Geheimnisse
+.env
+.env.*
+!.env.example
+
+# Echte Schuldaten gehören NIE ins Repo
+daten/
+*.gpu
+GPU*.TXT
+*.xlsx
+*.csv
+!**/testdaten/**
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Claude Code (lokale Einstellungen)
+.claude/settings.local.json
